@@ -1,0 +1,232 @@
+
+#playername{
+	-fx-font-size: 25px;
+	-fx-font-weight: 700;
+	-fx-color: #c0c0c0 ;
+
+}
+#info{
+	-fx-font-size: 20px;
+	-fx-font-weight: 500;
+	-fx-color: #c0c0c0 ;
+
+}
+#labelname{
+	-fx-font-size: 25px;
+	-fx-font-weight: 700;
+	-fx-color: #c0c0c0 ;
+
+}
+#versus{
+	-fx-font-size: 27.5px;
+	-fx-font-weight: 900;
+	-fx-color: #c0c0c0 ;
+
+}
+#nameingame{
+	-fx-font-size: 20px;
+	-fx-font-weight: 900;
+	-fx-color: #c0c0c0 ;
+
+}
+#choosing{
+	-fx-font-size: 35px;
+	-fx-font-weight: 700;
+	-fx-color: #c0c0c0 ;
+
+}
+#fightbutton:hover{
+	-fx-cursor: hand;
+ 	-fx-effect:dropshadow(gaussian, #1c6dd7, 20,1,10,10);
+}
+#startbutton:hover{
+	-fx-cursor: hand;
+ 	-fx-effect:dropshadow(gaussian, #1c6dd7, 20,1,10,10);
+}
+#vshead{
+	-fx-font-size: 40px;
+	-fx-font-weight: 900;
+	-fx-color: #c0c0c0 ;
+
+}
+#fight{
+    -fx-background-radius: 30;
+    -fx-padding: 10;
+    -fx-background-color: #c0c0c0;
+    -fx-font: 20px "Serif";
+}
+
+#progressBar-green {
+	-fx-accent:green;
+}
+#progressBar-yellow {
+	-fx-accent:yellow;
+}
+#progressBar-blue {
+	-fx-accent:blue;
+}
+#progressBar-orange {
+	-fx-accent:orange;
+}
+#progressBar-red {
+	-fx-accent:red;
+}
+
+.button {
+    -fx-background-radius: 30;
+    -fx-padding: 10;
+    -fx-background-color: #ed1d24;
+}
+
+.list-cell {
+  display: inline-block;
+  -fx-background: lightyellow;
+  -fx-background-color: transparent ;
+  -fx-background-radius: 30px;
+  -fx-padding: 12px ;
+}
+.list-cell:empty {
+  -fx-background-color: transparent;
+  -fx-border-width: 0px;
+  -fx-visibility:hidden;
+  
+}
+.list-cell:selected {
+    -fx-background-color: purple ;
+}
+.list-cell:hover {
+  -fx-background-color: rgb(0, 98, 128) ;
+}
+.list-view {
+  -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical {
+  -fx-scale-x: 0;
+}
+
+#GameTitle {
+	-fx-font-size: 90px;
+}
+
+#FightBtn:hover {
+	-fx-background-color: #000000
+}
+#button-pressed {
+	-fx-background-color:  rgb(13,30,57);
+}
+.text-input {
+    -fx-text-fill: #000000;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+}
+
+/*.image-view:hover {
+ 	-fx-cursor: hand;
+ 	-fx-effect:dropshadow(gaussian, #1c6dd7, 20,1,10,10);
+}*/
+.image-view {
+	-fx-background-radius: 30;
+}
+#leader:hover{
+	-fx-cursor: hand;
+ 	-fx-effect:dropshadow(gaussian, #1c6dd7, 20,1,10,10);
+}
+#leader:pressed{
+	-fx-cursor: hand;
+	-fx-background-color:#ed1d24;
+ 	-fx-effect:dropshadow(gaussian, #ed1d24, 20,1,10,10);
+ 	
+}
+ 
+#arrow-right{
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0 0 -1 0, 0;
+    -fx-padding: 0.25em;
+    -fx-shape: "M 0 -3.5 v 7 l 4 -3.5 z"; 
+}
+
+#arrow-right:hover{
+    /* Example make the arrow yellow if buttos was hovered  */
+    -fx-background-color: -fx-mark-highlight-color, yellow;
+}
+
+#arrow-right:pressed{
+    /* And red if it was pressed, you can apply different effect 
+     * like shadow , padding etc inside this rules.
+     */
+    -fx-background-color: -fx-mark-highlight-color, red;
+}
+
+#popup {
+	-fx-background-color: white;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+	-fx-opacity: 0.1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-border-radius :1.0em;
+}
+
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 0.0 10.0 0.0;
+
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+
+}
+
+ .scroll-bar .increment-arrow,
+ .scroll-bar .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.15em 0.0;
+}
+
+ .scroll-bar:vertical .increment-arrow,
+ .scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.0 0.15em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color :transparent;  /*derive(black,90.0%)*/
+    -fx-background-insets : 1.0, 0.0, 0.0;
+    -fx-background-radius : 1.0em;
+}
+
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color :derive(#4D4C4F,10.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 1.0em;
+}
+#rec {
+	-fx-fill: transparent; 
+	-fx-stroke: blue;
+	-fx-stroke-width: 3;
+}
+/*.tooltip {
+	
+}*/
+
